@@ -1,0 +1,309 @@
+{
+  "config": {
+    "models": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "Qwen/Qwen2.5-0.5B-Instruct"
+    ],
+    "shots": [
+      0,
+      3,
+      6
+    ],
+    "formats": [
+      "word",
+      "json"
+    ],
+    "max_per_class": 400,
+    "max_text": 2500,
+    "test_size": 50,
+    "final_size": 200,
+    "seed": 42
+  },
+  "runs": {
+    "Qwen/Qwen2.5-3B-Instruct|0|word": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 0,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.2032,
+        "mcc": 0.1252,
+        "acc": 0.2776,
+        "invalid": 0.0075
+      },
+      "time_s": 298.1,
+      "gpu_mem_gb": 2.42,
+      "cost_per_1000": 0.0625,
+      "timestamp": "2026-10-06T09:00:48.699667"
+    },
+    "Qwen/Qwen2.5-3B-Instruct|0|json": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 0,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.2385,
+        "mcc": 0.1443,
+        "acc": 0.295,
+        "invalid": 0.0151
+      },
+      "time_s": 452.1,
+      "gpu_mem_gb": 3.89,
+      "cost_per_1000": 0.0948,
+      "timestamp": "2026-10-06T09:08:37.220727"
+    },
+    "Qwen/Qwen2.5-3B-Instruct|3|word": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 3,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.2484,
+        "mcc": 0.1783,
+        "acc": 0.3281,
+        "invalid": 0.034
+      },
+      "time_s": 382.0,
+      "gpu_mem_gb": 4.22,
+      "cost_per_1000": 0.0801,
+      "timestamp": "2026-10-06T09:15:04.141893"
+    },
+    "Qwen/Qwen2.5-3B-Instruct|3|json": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 3,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.2474,
+        "mcc": 0.211,
+        "acc": 0.3268,
+        "invalid": 0.0302
+      },
+      "time_s": 511.3,
+      "gpu_mem_gb": 4.23,
+      "cost_per_1000": 0.1072,
+      "timestamp": "2026-10-06T09:23:39.405471"
+    },
+    "Qwen/Qwen2.5-3B-Instruct|6|word": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 6,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.2006,
+        "mcc": 0.1501,
+        "acc": 0.327,
+        "invalid": 0.0075
+      },
+      "time_s": 539.7,
+      "gpu_mem_gb": 4.64,
+      "cost_per_1000": 0.1131,
+      "timestamp": "2026-10-06T09:32:43.204238"
+    },
+    "Qwen/Qwen2.5-3B-Instruct|6|json": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "shots": 6,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.3417,
+        "mcc": 0.2387,
+        "acc": 0.3779,
+        "invalid": 0.0113
+      },
+      "time_s": 713.2,
+      "gpu_mem_gb": 4.67,
+      "cost_per_1000": 0.1495,
+      "timestamp": "2026-10-06T09:44:40.411603"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|0|word": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 0,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.0562,
+        "mcc": -0.0135,
+        "acc": 0.083,
+        "invalid": 0.0
+      },
+      "time_s": 152.3,
+      "gpu_mem_gb": 2.88,
+      "cost_per_1000": 0.0319,
+      "timestamp": "2026-10-06T09:49:23.989318"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|0|json": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 0,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.095,
+        "mcc": 0.0253,
+        "acc": 0.0958,
+        "invalid": 0.0151
+      },
+      "time_s": 376.3,
+      "gpu_mem_gb": 2.12,
+      "cost_per_1000": 0.0789,
+      "timestamp": "2026-10-06T09:55:45.852790"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|3|word": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 3,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.1749,
+        "mcc": 0.1416,
+        "acc": 0.1744,
+        "invalid": 0.0264
+      },
+      "time_s": 217.8,
+      "gpu_mem_gb": 2.37,
+      "cost_per_1000": 0.0457,
+      "timestamp": "2026-10-06T09:59:27.046173"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|3|json": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 3,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.1446,
+        "mcc": 0.1391,
+        "acc": 0.1585,
+        "invalid": 0.0
+      },
+      "time_s": 346.5,
+      "gpu_mem_gb": 2.39,
+      "cost_per_1000": 0.0727,
+      "timestamp": "2026-10-06T10:05:17.077478"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|6|word": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 6,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.1904,
+        "mcc": 0.1361,
+        "acc": 0.2906,
+        "invalid": 0.0
+      },
+      "time_s": 297.1,
+      "gpu_mem_gb": 2.69,
+      "cost_per_1000": 0.0623,
+      "timestamp": "2026-10-06T10:10:16.952934"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct|6|json": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "shots": 6,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.2354,
+        "mcc": 0.1524,
+        "acc": 0.2906,
+        "invalid": 0.0
+      },
+      "time_s": 432.9,
+      "gpu_mem_gb": 2.71,
+      "cost_per_1000": 0.0908,
+      "timestamp": "2026-10-06T10:17:32.652510"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|0|word": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 0,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.1339,
+        "mcc": -0.026,
+        "acc": 0.2018,
+        "invalid": 0.1585
+      },
+      "time_s": 143.1,
+      "gpu_mem_gb": 1.42,
+      "cost_per_1000": 0.03,
+      "timestamp": "2026-10-06T10:20:22.174733"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|0|json": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 0,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.0768,
+        "mcc": 0.0035,
+        "acc": 0.2222,
+        "invalid": 0.0151
+      },
+      "time_s": 217.7,
+      "gpu_mem_gb": 0.91,
+      "cost_per_1000": 0.0456,
+      "timestamp": "2026-10-06T10:24:02.099450"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|3|word": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 3,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.0848,
+        "mcc": 0.0433,
+        "acc": 0.196,
+        "invalid": 0.0566
+      },
+      "time_s": 147.2,
+      "gpu_mem_gb": 1.18,
+      "cost_per_1000": 0.0309,
+      "timestamp": "2026-10-06T10:26:31.629936"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|3|json": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 3,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.0895,
+        "mcc": 0.0391,
+        "acc": 0.0906,
+        "invalid": 0.0
+      },
+      "time_s": 256.4,
+      "gpu_mem_gb": 1.19,
+      "cost_per_1000": 0.0538,
+      "timestamp": "2026-10-06T10:30:50.108173"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|6|word": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 6,
+      "format": "word",
+      "metrics": {
+        "macro_f1": 0.148,
+        "mcc": 0.0293,
+        "acc": 0.2455,
+        "invalid": 0.1698
+      },
+      "time_s": 237.1,
+      "gpu_mem_gb": 1.52,
+      "cost_per_1000": 0.0497,
+      "timestamp": "2026-10-06T10:34:49.141209"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct|6|json": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "shots": 6,
+      "format": "json",
+      "metrics": {
+        "macro_f1": 0.0833,
+        "mcc": 0.0195,
+        "acc": 0.1174,
+        "invalid": 0.0038
+      },
+      "time_s": 315.5,
+      "gpu_mem_gb": 1.55,
+      "cost_per_1000": 0.0662,
+      "timestamp": "2026-10-06T10:40:06.584653"
+    }
+  },
+  "best_apply": {
+    "key": "Qwen/Qwen2.5-3B-Instruct|6|json",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "shots": 6,
+    "format": "json",
+    "metrics": {
+      "macro_f1": 0.2926,
+      "mcc": 0.1788,
+      "acc": 0.3333,
+      "invalid": 0.01
+    },
+    "n_samples": 200,
+    "timestamp": "2026-10-06T10:49:18.074352"
+  }
+}
